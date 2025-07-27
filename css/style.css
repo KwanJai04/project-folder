@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+    body{
+        font-family:  "Sriracha", cursive;;
+        background-image: url('https://i.pinimg.com/736x/66/5d/53/665d530753fd00e1dd3830f5a463d640.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+
+    .profile {
+      display: flex; 
+     flex-direction: column;
+     align-items: center;
+     gap: 30px;
+     }
+
+    .card {
+      background-color: rgb(255, 255, 255);
+      padding: 25px 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1);
+      width: 320px;
+    }
+
+    .card h1 {
+      font-size: 22px;
+      color: #000000;
+      margin: 15px 0 5px;
+      text-align: center
+    }
+
+    .card h2 {
+        font-size: 16px;
+        color: #000000;
+        margin: 15px 0 5px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #000000;
+      margin-bottom: 20px;
+      text-align: left;
+    }
+
+     .title {
+      color:aliceblue ;
+      text-align: center;
+      margin-top: 0;
+      padding-top: 20px;
+      font-size: 36px;
+      font-weight: bold;
+    }
+
+    .image {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .image img {
+      width: 200px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .image img:hover {
+      transform: scale(1.05);
+    }
+
+.social-buttons a {
+      display: inline-block;
+  background-color: #7f7f7f;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  margin-top: 40px;
+
+    }
+
+    .social-buttons a:hover {
+      background-color: #727272;
+    }
+
+    .student-info {
+      text-align: left;
+      display: inline-block
+    }
+
+    table {
+      border-collapse: collapse;
+      margin: 0 auto;
+      width: 90%;
+      max-width: 1000px;
+      background-color: aliceblue;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      font-size: 12px;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: aliceblue;
+      color: #000000;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #ccc;
+    }
